@@ -1,0 +1,3 @@
+ln -sf ~/dotfiles/gitconfig ~/.gitconfig
+
+SPINX_ENABLE_SOURCEMAPS=true

@@ -1,0 +1,40 @@
+[user]
+	name = Patrick Racicot
+	email = patrick.racicot@shopify.com
+[core]
+	commitGraph = true
+[diff]
+	algorithm = patience
+[gc]
+	writeCommitGraph = true
+[protocol]
+	version = 2
+[url "https://github.com/Shopify/"]
+	insteadOf = git@github.com:Shopify/
+	insteadOf = git@github.com:shopify/
+	insteadOf = ssh://git@github.com/Shopify/
+	insteadOf = ssh://git@github.com/shopify/
+[alias]
+        cm = checkout master
+        fo = fetch origin
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+        sa = stash apply
+        po = push origin
+        pom = pull origin master
+        rbm = rebase -i master
+        rb2 = rebase -i HEAD~2
+        rb3 = rebase -i HEAD~3
+        ca = commit --amend
+[merge]
+        conflictstyle = diff3
+[fetch]
+        prune = true
+[color "branch"]
+        current = yellow reverse
+        local = yellow
+        remote = green
+[diff]
+        algorithm = patience
