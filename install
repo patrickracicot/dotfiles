@@ -1,3 +1,7 @@
+brew install zsh
+chsh -s /usr/local/bin/zsh
+
+ln -sf ~/dotfiles/zshrc ~/.zshrc
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 
 SPINX_ENABLE_SOURCEMAPS=true
