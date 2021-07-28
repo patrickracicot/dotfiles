@@ -28,6 +28,9 @@
         rb2 = rebase -i HEAD~2
         rb3 = rebase -i HEAD~3
         ca = commit --amend
+        gst = git status
+        gaa = git add --all
+        gcmsg = git commit -m
 [merge]
         conflictstyle = diff3
 [fetch]
