@@ -1,3 +1,5 @@
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 
+alias g="git"
+
 SPINX_ENABLE_SOURCEMAPS=true
