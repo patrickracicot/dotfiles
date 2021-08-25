@@ -1,5 +1,5 @@
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
-
-alias g="git"
+# cp vimrc ~/.vimrc
+cp zshrc ~/.zshrc
 
 SPINX_ENABLE_SOURCEMAPS=true
