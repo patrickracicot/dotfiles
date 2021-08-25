@@ -28,6 +28,7 @@
         rb2 = rebase -i HEAD~2
         rb3 = rebase -i HEAD~3
         ca = commit --amend
+        cms = commit -m "squash"
 [merge]
         conflictstyle = diff3
 [fetch]
