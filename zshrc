@@ -2,6 +2,8 @@ autoload -Uz vcs_info
 precmd_functions+=( vcs_info )
 setopt prompt_subst
 
+ZSH_THEME=robbyrussell
+
 zstyle ':vcs_info:git:*' check-for-changes true
 zstyle ':vcs_info:*' unstagedstr '*'
 zstyle ':vcs_info:*' stagedstr '+'
